@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import brochurePdf from "../assets/Placement_brochure.pdf";
 import jnf from "../assets/JNF 2022-23 IIIT Lucknow.docx";
-import kushal from "../assets/team22/kushal.jpeg";
 import anu from "../assets/team22/anu.jpg";
+import Ritu from '../assets/team23/ritu.jpg'
+import Ravikant from '../assets/team23/ravikant.jpg'
 
 const footer = () => {
   return (
@@ -28,15 +29,15 @@ const footer = () => {
             </div>
             <div className="footer-col-parent">
               <a href="https://www.linkedin.com/in/kushal-reddy-3101231b5/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
-                <img src={kushal} alt={"kushal"} className="footer-img"/>
+                <img src={Ritu} alt={"Ritu"} className="footer-img" />
               </a>
               <div className="footer-col">
-                <p className="footer-contact-name">R. Kushal Reddy</p>
+                <p className="footer-contact-name">Ritu Kumari</p>
                 <p className="footer-contact-position">Overall Placement Coordinator</p>
                 <p>
-                  <a href="tel:+91-8094123615">+91-9059110999</a>
+                  <a href="tel:+91-8094123615">+91-8287014840</a>
                 </p>
-                <p> 
+                <p>
                   <a href="mailto:placements@iiitl.ac.in">
                     placements@iiitl.ac.in
                   </a>
@@ -45,15 +46,15 @@ const footer = () => {
             </div>
             <div className="footer-col-parent">
               <a href="https://www.linkedin.com/in/anu-kumari-401464197/" target="_blank" rel="noopener noreferrer">
-              <img src={anu} alt={"anu"} className="footer-img"/>
+                <img src={Ravikant} alt={"ravikant"} className="footer-img" />
               </a>
               <div className="footer-col">
-                <p className="footer-contact-name">Anu Kumari</p>
-                <p className="footer-contact-position">Placement Executive</p>
+                <p className="footer-contact-name">Ravikant</p>
+                <p className="footer-contact-position">Placement Coordinator</p>
                 <p>
                   <a href="tel:+91-8094123615">+91-9324121272</a>
                 </p>
-                <p> 
+                <p>
                   <a href="mailto:placements@iiitl.ac.in">
                     placements@iiitl.ac.in
                   </a>
@@ -102,13 +103,13 @@ const footer = () => {
             Rishabh
           </a>
           , {" "}
-           <a
+          <a
             href="https://www.linkedin.com/in/narendra-singh-139b5219a/"
             target="none"
           >
-            Narendra 
+            Narendra
           </a>, {" "}
-           <a
+          <a
             href="https://www.linkedin.com/in/harshdeep-061661193/x"
             target="none"
           >
@@ -116,11 +117,11 @@ const footer = () => {
           </a>
           ,{"  "}
           <a href="https://www.linkedin.com/in/vinamrbajaj/" target="none">
-            Vinamr 
+            Vinamr
           </a>
           , {" "}
           <a href="https://www.linkedin.com/in/rktejesh/" target="none">
-            Tejesh 
+            Tejesh
           </a>
           )
         </p>
