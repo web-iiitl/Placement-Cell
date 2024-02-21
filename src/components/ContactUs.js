@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import vks from "../assets/team22/vks.jpg";
+import abk from "../assets/images/abk.jpg";
 import ritu from '../assets/team23/ritu.jpg'
 import abhishek from "../assets/team22/abhishek.jpg";
 import Pranjal from "../assets/team22/pranjal.jpeg";
@@ -32,13 +32,13 @@ const contactUs = () => {
           <div className="placement-coordinators">
             <div className="placement-coordinators-wrapper">
               <Card
-                src={vks}
-                alt="Dr. Vishal Krishna Singh"
-                name="Dr. Vishal Krishna Singh"
+                src={abk}
+                alt="Dr. Abhinesh Kaushik"
+                name="Dr. Abhinesh Kaushik"
                 isTeacher={false}
                 position="Training and Placements Officer"
                 email="placements@iiitl.ac.in, tpo@iiitl.ac.in"
-                linkedin="https://www.linkedin.com/in/vishal-krishna-singh-48670916a/"
+                linkedin="https://www.linkedin.com/in/dr-abhinesh-kaushik-67a83647/"
                 islinkedin={true}
                 isPhone={false}
                 isEmail={true}
