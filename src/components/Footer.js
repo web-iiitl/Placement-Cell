@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import brochurePdf from "../assets/Placement_brochure.pdf";
-import jnf from "../assets/JNF 2022-23 IIIT Lucknow.docx";
+import jnf from "../assets/JNF 2023-24 IIIT Lucknow.docx";
 import anu from "../assets/team22/anu.jpg";
 import Ritu from '../assets/team23/ritu.jpg'
 import Ravikant from '../assets/team23/ravikant.jpg'
