@@ -1,27 +1,27 @@
 import React from "react";
 import Card from "./Card";
 import abk from "../assets/images/abk.jpg";
-import ritu from '../assets/team23/ritu.jpg'
+import ritu from "../assets/team23/ritu.jpg";
 import abhishek from "../assets/team22/abhishek.jpg";
 import Pranjal from "../assets/team22/pranjal.jpeg";
 import Anu from "../assets/team22/anu.jpg";
 import Ishan from "../assets/team22/ishan.jpg";
-import Ravikant from "../assets/team23/ravikant.jpg"
-import Zainab from "../assets/team22/zainab.jpg"
-import Orunayan from "../assets/team22/orunayan.jpg"
-import Ajay from "../assets/team22/ajay.jpg"
-import Aysha from "../assets/team22/aysha.jpg"
-import Hriday from '../assets/team23/hriday.jpg'
-import Harsh from '../assets/team23/harsh.jpg'
-import Shivani from '../assets/team23/shivani.jpg'
-import Avantika from '../assets/team23/avantika.jpg'
-import Saniya from '../assets/team23/saniya.jpg'
-import Ashutosh from '../assets/team23/ashutosh.jpg'
-import Nitesh from '../assets/team23/nitesh.jpg'
-import Anukool from '../assets/team23/anukool.jpg'
-import Kotiswar from '../assets/team23/kotiswar.jpg'
-import Aayush from "../assets/team23/aayush .jpg"
-import Madhuri from "../assets/team23/madhuri.jpg"
+import Ravikant from "../assets/team23/ravikant.jpg";
+import Zainab from "../assets/team22/zainab.jpg";
+import Orunayan from "../assets/team22/orunayan.jpg";
+import Ajay from "../assets/team22/ajay.jpg";
+import Aysha from "../assets/team22/aysha.jpg";
+import Hriday from "../assets/team23/hriday.jpg";
+import Harsh from "../assets/team23/harsh.jpg";
+import Shivani from "../assets/team23/shivani.jpg";
+import Avantika from "../assets/team23/avantika.jpg";
+import Saniya from "../assets/team23/saniya.jpg";
+import Ashutosh from "../assets/team23/ashutosh.jpg";
+import Nitesh from "../assets/team23/nitesh.jpg";
+import Anukool from "../assets/team23/anukool.jpg";
+import Kotiswar from "../assets/team23/kotiswar.jpg";
+import Aayush from "../assets/team23/aayush .jpg";
+import Madhuri from "../assets/team23/madhuri.jpg";
 
 const contactUs = () => {
   return (
@@ -69,7 +69,7 @@ const contactUs = () => {
                 isPhone={true}
                 isEmail={true}
               />
-              <Card
+              {/*<Card
                 src={Anukool}
                 alt="Anukool"
                 name="Anukool"
@@ -107,12 +107,10 @@ const contactUs = () => {
                 islinkedin={true}
                 isPhone={true}
                 isEmail={true}
-              />
-
-
+              /> */}
             </div>
           </div>
-          <div className="placement-coordinators">
+          {/* <div className="placement-coordinators">
             <div className="placement-coordinators-wrapper">
               <Card
                 src={Ashutosh}
@@ -223,8 +221,8 @@ const contactUs = () => {
                 isEmail={false}
               />
             </div>
-          </div>
-          <div className="placement-coordinators">
+  </div> */}
+          {/* <div className="placement-coordinators"> 
             <div className="placement-coordinators-wrapper">
               <Card
                 src={Madhuri}
@@ -279,10 +277,10 @@ const contactUs = () => {
                 isEmail={false}
               />
             </div>
-          </div>
+  </div> */}
         </div>
-      </div >
-    </React.Fragment >
+      </div>
+    </React.Fragment>
   );
 };
 
