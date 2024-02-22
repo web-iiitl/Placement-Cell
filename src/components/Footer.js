@@ -28,7 +28,7 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col-parent">
-              <a href="https://www.linkedin.com/in/kushal-reddy-3101231b5/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ritu-kumari-272579205/" target="_blank" rel="noopener noreferrer">
                 <img src={Ritu} alt={"Ritu"} className="footer-img" />
               </a>
               <div className="footer-col">
@@ -45,14 +45,14 @@ const footer = () => {
               </div>
             </div>
             <div className="footer-col-parent">
-              <a href="https://www.linkedin.com/in/anu-kumari-401464197/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ravikantamal/" target="_blank" rel="noopener noreferrer">
                 <img src={Ravikant} alt={"ravikant"} className="footer-img" />
               </a>
               <div className="footer-col">
-                <p className="footer-contact-name">Ravikant</p>
-                <p className="footer-contact-position">Placement Coordinator</p>
+                <p className="footer-contact-name">Ravikant Amal</p>
+                <p className="footer-contact-position">M.tech Placement Coordinator</p>
                 <p>
-                  <a href="tel:+91-8094123615">+91-9324121272</a>
+                  <a href="tel:+91-8094123615">+91-9630165400</a>
                 </p>
                 <p>
                   <a href="mailto:placements@iiitl.ac.in">
@@ -122,6 +122,10 @@ const footer = () => {
           , {" "}
           <a href="https://www.linkedin.com/in/rktejesh/" target="none">
             Tejesh
+          </a>
+          , {" "}
+          <a href="https://www.linkedin.com/in/dhruva-n-l-choudhary/" target="none">
+            Dhruva
           </a>
           )
         </p>
