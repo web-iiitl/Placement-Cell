@@ -20,7 +20,8 @@ import Demographics from "./components/demographics";
 import Page404 from "./components/404";
 import AlumniSpeaks from "./components/AlumniSpeaks";
 import Placement2019 from './components/PlacementStats2019';
-import PlacementStats2022 from './components/PlacementStats2022'
+import PlacementStats2022 from './components/PlacementStats2022';
+import PlacementStats2023 from './components/PlacementStats2023';
 
 class App extends Component {
   render() {
@@ -33,6 +34,7 @@ class App extends Component {
             <Route path="/facilities" exact component={Facilities} />
             <Route path="/" exact component={Home} />
             <Route path="/our-recruiters" exact component={OurRecruiters} />
+            <Route path="/placement-stats-2023" exact component={PlacementStats2023} />
             <Route path="/placement-stats-2022" exact component={PlacementStats2022} />
             <Route path="/placement-stats-2021" exact component={PlacementStats2021} />
             <Route path="/placement-stats-2020" exact component={PlacementStats2020} />

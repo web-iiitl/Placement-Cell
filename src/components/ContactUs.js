@@ -57,6 +57,19 @@ const contactUs = () => {
                 isEmail={true}
               />
               <Card
+                src={Ashutosh}
+                alt="Ashutosh"
+                name="Ashutosh"
+                isTeacher={false}
+                position="B.tech Coordinator"
+                phone="+91-7905458294"
+                email="placements@iiitl.ac.in"
+                linkedin="https://www.linkedin.com/in/ashutosh-singh-iiitl/"
+                islinkedin={true}
+                isPhone={true}
+                isEmail={true}
+              />
+              {/* <Card
                 src={Hriday}
                 alt="Hriday Gupta"
                 name="Hriday Gupta"
@@ -68,7 +81,7 @@ const contactUs = () => {
                 islinkedin={true}
                 isPhone={true}
                 isEmail={true}
-              />
+              /> */}
               {/*<Card
                 src={Anukool}
                 alt="Anukool"
@@ -111,20 +124,9 @@ const contactUs = () => {
             </div>
           </div>
           {/* <div className="placement-coordinators">
-            <div className="placement-coordinators-wrapper">
-              <Card
-                src={Ashutosh}
-                alt="Ashutosh"
-                name="Ashutosh"
-                isTeacher={false}
-                position="Member-CS"
-                phone="+91-7905458294"
-                email="placements@iiitl.ac.in"
-                linkedin="https://www.linkedin.com/in/ashutosh-singh-iiitl/"
-                islinkedin={true}
-                isPhone={true}
-                isEmail={true}
-              />
+            <div className="placement-coordinators-wrapper"> */}
+              
+              {/*
               <Card
                 src={Nitesh}
                 alt="Nitesh Singh"

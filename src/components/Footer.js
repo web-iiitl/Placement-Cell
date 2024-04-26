@@ -35,7 +35,7 @@ const footer = () => {
                 <p className="footer-contact-name">Ritu Kumari</p>
                 <p className="footer-contact-position">Overall Placement Coordinator</p>
                 <p>
-                  <a href="tel:+91-8094123615">+91-8287014840</a>
+                  <a href="tel:+91-82870 14840">+91-8287014840</a>
                 </p>
                 <p>
                   <a href="mailto:placements@iiitl.ac.in">
