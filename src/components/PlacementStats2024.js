@@ -1,14 +1,10 @@
 import React from "react";
 import GearsImg from "../assets/images/stats24/btech_settings.png";
-import GearsImgMtech from "../assets/images/stats23/btech_avg.png";
 import PlacementStatsDomainWise from "./PlacemetsStatsDomainWise2021";
 import PlacementStats from "../assets/images/stats24/btech_packages.png";
-import PlacementStatsMtech from "../assets/images/stats23/mtechpackages.png";
 import PlacedPercentageImage from "../assets/images/stats24/percentage.png";
 
 const Placement = props => {
-    
-
     return (
         <div>
             <div className="stats-outer-wrapper" style={{ marginBottom: "30px" }}>
@@ -17,8 +13,8 @@ const Placement = props => {
                 </h1>
                 <div className="images-row-2">
                     <div className="images-row-2-inner">
-                        <img src={PlacementStats} alt="Placement Stats 2024" style={{height:"300px" ,width:"450px"}} />
-                        <img src={GearsImg} alt="Placement Stats 2024" style={{height:"300px" ,width:"450px"}} />
+                        <img src={PlacementStats} alt="Placement Stats 2024"  />
+                        <img src={GearsImg} alt="Placement Stats 2024" />
                     </div>
                 </div>
                 <div className="images-row-2" style={{ marginTop: "30px" }}>
