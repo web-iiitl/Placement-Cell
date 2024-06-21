@@ -43,6 +43,9 @@ const Toolbar = props => (
               <i className="fa fa-caret-down" />
             </button>
             <div className="dropdown-content">
+            <NavLink to="/placement-stats-2024" exact className="activeclass">
+                Placement Stats 2024
+              </NavLink>
             <NavLink to="/placement-stats-2023" exact className="activeclass">
                 Placement Stats 2023
               </NavLink>
