@@ -3,6 +3,8 @@ import GearsImg from "../assets/images/stats24/btech_settings.png";
 import PlacementStatsDomainWise from "./PlacemetsStatsDomainWise2021";
 import PlacementStats from "../assets/images/stats24/btech_packages.png";
 import PlacedPercentageImage from "../assets/images/stats24/percentage.png";
+import PlacementStatsMtech from "../assets/images/stats24/mtech_packages.png";
+import GearsImgMtech from "../assets/images/stats24/mtech_settings.png";
 
 const Placement = props => {
     return (
@@ -30,17 +32,17 @@ const Placement = props => {
                     </div>
                 </div>
             </div>
-            {/* <div className="stats-outer-wrapper" style={{ margin: "30px" }}>
+             <div className="stats-outer-wrapper" style={{ margin: "30px" }}>
                 <h1 className="ps-name-heading pr-main-heading">
                     Placement Statistics (M.Tech) 2022-23
                 </h1>
                 <div className="images-row-2">
                     <div className="images-row-2-inner">
                         <img src={PlacementStatsMtech}  alt="Placement Stats 2024" />
-                        <img src={GearsImgMtech} style={{height:"200px" ,width:"350px"}} alt="Placement Stats 2024" />
+                        <img src={GearsImgMtech} style={{height:"200px" ,width:"200px"}} alt="Placement Stats 2024" />
                     </div>
                 </div>
-            </div> */}
+            </div> 
         </div>
     );
 };

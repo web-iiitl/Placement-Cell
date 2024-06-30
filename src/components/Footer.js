@@ -5,6 +5,8 @@ import jnf from "../assets/JNF 2023-24 IIIT Lucknow.docx";
 import anu from "../assets/team22/anu.jpg";
 import Ritu from '../assets/team23/ritu.jpg'
 import Ravikant from '../assets/team23/ravikant.jpg'
+import maniraj from '../assets/team24/mani_raj.jpg';
+import anwaransari from '../assets/team24/anwar_ansari.jpg';
 
 const footer = () => {
   return (
@@ -28,14 +30,14 @@ const footer = () => {
               </p>
             </div>
             <div className="footer-col-parent">
-              <a href="https://www.linkedin.com/in/ritu-kumari-272579205/" target="_blank" rel="noopener noreferrer">
-                <img src={Ritu} alt={"Ritu"} className="footer-img" />
+              <a href="https://www.linkedin.com/in/mani-raj-gupta-11b329224/" target="_blank" rel="noopener noreferrer">
+                <img src={maniraj} alt={"Mani Raj Gupta"} className="footer-img" />
               </a>
               <div className="footer-col">
-                <p className="footer-contact-name">Ritu Kumari</p>
+                <p className="footer-contact-name">Mani Raj Gupta</p>
                 <p className="footer-contact-position">Overall Placement Coordinator</p>
                 <p>
-                  <a href="tel:+91-82870 14840">+91-8287014840</a>
+                  <a href="tel:+91-8083007276">+91-8083007276</a>
                 </p>
                 <p>
                   <a href="mailto:placements@iiitl.ac.in">
@@ -45,14 +47,14 @@ const footer = () => {
               </div>
             </div>
             <div className="footer-col-parent">
-              <a href="https://www.linkedin.com/in/ravikantamal/" target="_blank" rel="noopener noreferrer">
-                <img src={Ravikant} alt={"ravikant"} className="footer-img" />
+              <a href="https://www.linkedin.com/in/anwaransari14" target="_blank" rel="noopener noreferrer">
+                <img src={anwaransari} alt={"Anwar Ansari"} className="footer-img" />
               </a>
               <div className="footer-col">
-                <p className="footer-contact-name">Ravikant Amal</p>
+                <p className="footer-contact-name">Anwar Ansari</p>
                 <p className="footer-contact-position">M.tech Placement Coordinator</p>
                 <p>
-                  <a href="tel:+91-8094123615">+91-9630165400</a>
+                  <a href="tel:+91-7776038299">+91-7776038299</a>
                 </p>
                 <p>
                   <a href="mailto:placements@iiitl.ac.in">

@@ -2,6 +2,8 @@ import React from "react";
 import Card from "./Card";
 import abk from "../assets/images/abk.jpg";
 import ritu from "../assets/team23/ritu.jpg";
+import maniraj from '../assets/team24/mani_raj.jpg';
+import anwaransari from '../assets/team24/anwar_ansari.jpg';
 import abhishek from "../assets/team22/abhishek.jpg";
 import Pranjal from "../assets/team22/pranjal.jpeg";
 import Anu from "../assets/team22/anu.jpg";
@@ -44,27 +46,27 @@ const contactUs = () => {
                 isEmail={true}
               />
               <Card
-                src={ritu}
-                alt="Ritu Kumari"
-                name="Ritu Kumari"
+                src={maniraj}
+                alt="Mani Raj Gupta"
+                name="Mani Raj Gupta"
                 isTeacher={false}
                 position="Overall Coordinator"
                 email="placements@iiitl.ac.in "
-                phone="+91-8287014840"
-                linkedin="https://www.linkedin.com/in/ritu-kumari-272579205/"
+                phone="+91-8083007276"
+                linkedin="https://www.linkedin.com/in/mani-raj-gupta-11b329224/"
                 islinkedin={true}
                 isPhone={true}
                 isEmail={true}
               />
               <Card
-                src={Ashutosh}
-                alt="Ashutosh"
-                name="Ashutosh"
+                src={anwaransari}
+                alt="Anwar Ansari"
+                name="Anwar Ansari"
                 isTeacher={false}
-                position="B.tech Coordinator"
-                phone="+91-7905458294"
+                position="M.tech Coordinator"
+                phone="+91-7776038299"
                 email="placements@iiitl.ac.in"
-                linkedin="https://www.linkedin.com/in/ashutosh-singh-iiitl/"
+                linkedin="https://www.linkedin.com/in/anwaransari14"
                 islinkedin={true}
                 isPhone={true}
                 isEmail={true}
