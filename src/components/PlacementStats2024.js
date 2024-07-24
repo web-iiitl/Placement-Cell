@@ -34,7 +34,7 @@ const Placement = props => {
             </div>
              <div className="stats-outer-wrapper" style={{ margin: "30px" }}>
                 <h1 className="ps-name-heading pr-main-heading">
-                    Placement Statistics (M.Tech) 2022-23
+                    Placement Statistics (M.Tech) 2023-24
                 </h1>
                 <div className="images-row-2">
                     <div className="images-row-2-inner">
