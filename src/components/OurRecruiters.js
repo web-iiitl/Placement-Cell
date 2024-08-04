@@ -133,10 +133,10 @@ const PastRecruiters = props => {
         <div className="pr-inner-wrapper">
           <div className="pr-inner-box">
             <div className="pr-inner-row">
+            <img src={googleLogo} alt="Google" />
               <img src={amazonLogo} alt="Amazon" />
               <img src={flipkartLogo} alt="Flipkart" />
-              <img src={ecorp} alt="314ecorp" />
-              <img src={ackoLogo} alt="Acko" />
+              <img src={zomatologo} alt="Zomato" />
               <img src={intelLogo} alt="Intel" />
             </div>
 

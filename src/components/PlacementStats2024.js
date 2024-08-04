@@ -26,7 +26,6 @@ const Placement = props => {
                             <img
                                 src={HighestPackage}
                                 alt="Highest Package"
-                                // style={{ width: "350px" }}
                             />
                         </div>
                     </div>
