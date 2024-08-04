@@ -2,7 +2,7 @@ import React from "react";
 import GearsImg from "../assets/images/stats24/btech_settings.png";
 import PlacementStatsDomainWise from "./PlacemetsStatsDomainWise2021";
 import PlacementStats from "../assets/images/stats24/btech_packages.png";
-import PlacedPercentageImage from "../assets/images/stats24/percentage.png";
+import HighestPackage from "../assets/images/stats24/highest_package.jpg";
 import PlacementStatsMtech from "../assets/images/stats24/mtech_packages.png";
 import GearsImgMtech from "../assets/images/stats24/mtech_settings.png";
 
@@ -24,9 +24,9 @@ const Placement = props => {
                         <PlacementStatsDomainWise />
                         <div style={{ alignSelf: "center" }}>
                             <img
-                                src={PlacedPercentageImage}
-                                alt="Placed Percentage"
-                                style={{ width: "250px" }}
+                                src={HighestPackage}
+                                alt="Highest Package"
+                                // style={{ width: "350px" }}
                             />
                         </div>
                     </div>
