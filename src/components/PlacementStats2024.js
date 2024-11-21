@@ -2,7 +2,7 @@ import React from "react";
 import GearsImg from "../assets/images/stats24/btech_settings.png";
 import PlacementStatsDomainWise from "./PlacemetsStatsDomainWise2021";
 import PlacementStats from "../assets/images/stats24/btech_packages.png";
-import HighestPackage from "../assets/images/stats24/highest_package.jpg";
+import HighestPackage from "../assets/images/stats24/highest_package.png";
 import PlacementStatsMtech from "../assets/images/stats24/mtech_packages.png";
 import GearsImgMtech from "../assets/images/stats24/mtech_settings.png";
 
